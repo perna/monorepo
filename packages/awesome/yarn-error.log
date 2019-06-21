@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js init
+
+PATH: 
+  /home/perna/.wasmer/bin:/opt/spark/bin:/home/perna/.wasmer/bin:/home/perna/.npm-global/bin:/home/perna/.npm-global/bin:/home/perna/.cargo/bin:/home/perna/.wasmer/bin:/home/perna/.sdkman/candidates/kotlin/current/bin:/opt/spark/bin:/home/perna/.wasmer/bin:/home/perna/.npm-global/bin:/home/perna/.npm-global/bin:/home/perna/.cargo/bin:/usr/share/Modules/bin:/home/perna/.cargo/bin:/usr/local/bin:/usr/local/sbin:/usr/bin:/usr/sbin:/home/perna/bin:/var/lib/snapd/snap/bin:/home/perna/Android/Sdk/tools:/home/perna/Android/Sdk/platform-tools:/home/perna/Android/Sdk/emulator:/home/perna/Android/Sdk/tools/bin:/usr/local/go/bin:/opt/chromedriver:/opt/flutter/bin:/home/perna/.cargo/bin:/home/perna/bin:/home/perna/Android/Sdk/tools:/home/perna/Android/Sdk/platform-tools:/home/perna/Android/Sdk/emulator:/home/perna/Android/Sdk/tools/bin:/usr/local/go/bin:/opt/chromedriver:/opt/flutter/bin:/home/perna/.cargo/bin
+
+Yarn version: 
+  1.16.0
+
+Node version: 
+  10.16.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/perna/code4fun/monorepo/packages/awesome/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:304:30)
+      at /usr/share/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

@@ -1,0 +1,11 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "husky": "^2.4.1",
+    "lerna": "^3.15.0"
+  }
+}
