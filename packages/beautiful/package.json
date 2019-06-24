@@ -2,7 +2,7 @@
     "name": "@monorepo/beautiful",
     "main": "index.js",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "momentjs": "^2.0.0"
     },
