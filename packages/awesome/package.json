@@ -1,11 +1,13 @@
 {
   "name": "@monorepo/awesome",
-  "version": "0.0.4",
   "main": "index.js",
   "license": "MIT",
+  "version": "1.0.0",
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
-  "gitHead": "157ed43ad09b086aa2aa941ccc4e2b07e3af051b"
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  }
 }

@@ -1,12 +1,11 @@
 {
+  "version": "independent",
   "packages": [
     "packages/*"
   ],
-  "version": "0.0.4",
   "command": {
     "publish": {
-      "conventionalCommits": true,
-      "yes": true
+      "conventionalCommits": true
     }
   }
 }

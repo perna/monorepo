@@ -1,10 +1,12 @@
 {
     "name": "@monorepo/beautiful",
-    "version": "0.0.4",
     "main": "index.js",
     "license": "MIT",
+    "version": "1.0.0",
     "dependencies": {
         "momentjs": "^2.0.0"
     },
-    "gitHead": "157ed43ad09b086aa2aa941ccc4e2b07e3af051b"
+    "publishConfig": {
+        "registry": "http://localhost:4873"
+    }
 }

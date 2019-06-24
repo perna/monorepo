@@ -1,5 +1,7 @@
 import React from 'react'
 
-const Hello = () => 'Hello World'
+const Hello = () => { 
+    console.log('Hello World')
+}
 
 export default Hello
